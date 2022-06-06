@@ -1,4 +1,8 @@
 # Youtube Recommendation Tensorflow-Keras
+
+#### Movie recommendation system using YouTube recommendation system.   
+#### 유튜브 추천 시스템을 사용한 영화 추천 시스템.
+   
 Simple tf-keras code of paper [\[Deep Neural Networks for YouTube Recommendations\]](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf).  
 Jupiter notebook files `recommendation.ipynb` with detailed description.
    
