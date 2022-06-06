@@ -1,2 +1,2 @@
-# Youtube_Recommendation_tf_keras
+# Youtube Recommendation tf keras
 code of paper 'Deep Neural Networks for Youtube Recommendation'
