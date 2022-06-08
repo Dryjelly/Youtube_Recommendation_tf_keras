@@ -21,6 +21,65 @@ This code does <em><strong>not include 'ranking'</strong></em>.
    
 ## How to test code
 Check `recommendation.ipynb` file
+
+* Result
+```
+Movie Recommendation for user 1 (movie_ID): [53, 1064, 1111, 510, 1488, 239, 230, 1157, 281, 162]
+```
+* Matrix (User 1 MAP)
+```
+### Model Prediction VS Random Pick ###
+
+top N  = 1 -------------------
+
+model  = Rank 1 Recall    : 0.0072992700729927005 (1/137)
+model  = Rank 1 Precision : 1.0 (1/1)
+
+random = Rank 1 Recall    : 0.0 (0/137)
+random = Rank 1 Precision : 0.0 (0/1)
+
+top N  = 10 -------------------
+
+model  = Rank 10 Recall    : 0.014598540145985401 (2/137)
+model  = Rank 10 Precision : 0.2 (2/10)
+
+random = Rank 10 Recall    : 0.0 (0/137)
+random = Rank 10 Precision : 0.0 (0/10)
+
+top N  = 20 -------------------
+
+model  = Rank 20 Recall    : 0.014598540145985401 (2/137)
+model  = Rank 20 Precision : 0.1 (2/20)
+
+random = Rank 20 Recall    : 0.0072992700729927005 (1/137)
+random = Rank 20 Precision : 0.05 (1/20)
+
+top N  = 30 -------------------
+
+model  = Rank 30 Recall    : 0.029197080291970802 (4/137)
+model  = Rank 30 Precision : 0.13333333333333333 (4/30)
+
+random = Rank 30 Recall    : 0.0364963503649635 (5/137)
+random = Rank 30 Precision : 0.16666666666666666 (5/30)
+
+top N  = 40 -------------------
+
+model  = Rank 40 Recall    : 0.058394160583941604 (8/137)
+model  = Rank 40 Precision : 0.2 (8/40)
+
+random = Rank 40 Recall    : 0.014598540145985401 (2/137)
+random = Rank 40 Precision : 0.05 (2/40)
+
+top N  = 50 -------------------
+
+model  = Rank 50 Recall    : 0.06569343065693431 (9/137)
+model  = Rank 50 Precision : 0.18 (9/50)
+
+random = Rank 50 Recall    : 0.014598540145985401 (2/137)
+random = Rank 50 Precision : 0.04 (2/50)
+
+mAP@50 = 0.19529945953383454
+```
    
 ## Environment
 * python
